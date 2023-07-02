@@ -9,15 +9,12 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-This beautiful challenge gave me the opportunity of pursuing pixel perfectness. I've tried to keep things simple by playing mainly with flexbox, while discovering design dimensions and colors using [Gimp](https://www.gimp.org/)'s measuring tool and color picker. This workflow led me to a very satisfactory result.
+This beautiful challenge gave me the opportunity of pursuing pixel perfectness. I've tried to keep things simple by playing mainly with flexbox, while discovering design dimensions and colors using [Gimp](https://www.gimp.org/)'s measuring tool and color picker.
 
 ### Screenshots
 
@@ -26,8 +23,8 @@ This beautiful challenge gave me the opportunity of pursuing pixel perfectness. 
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/results-summary-component-using-html-and-css-flexbox-kLXvgKXg52)
+- Live Site URL: [live site URL](https://results-summary-component-main-wellspr.vercel.app/)
 
 ## My process
 
