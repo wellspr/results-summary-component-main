@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px)  {
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-base {
+        flex-direction: column;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 375px;
+    }
+
+    .card {
+        width: 375px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .card.result {
+        height: 356px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-top: 2.5rem;
+    }
+
+    .result__heading {
+        font-size: 1.8rem;
+    }
+
+    .score {
+        width: 14rem;
+        height: 14rem;
+        margin: 0;
+        margin-top: 2.3rem;
+        margin-bottom: 2.3rem;
+    }
+
+    .score__value {
+        font-size: 5.4rem;
+    }
+
+    .score__complementary {
+        font-size: 1.6rem;
+    }
+
+    .description__heading {
+        font-size: 2.4rem;
+    }
+
+    .description__text {
+        font-size: 1.6rem;
+    }
+
+    .card.summary {
+        margin: 0;
+        padding: 0;
+        padding-top: 2.5rem;
+        padding-bottom: 2.9rem;
+        height: 45.2rem;
+    }
+
+    .summary__heading {
+        font-size: 1.8rem;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .property {
+        width: 31.5rem;
+        height: 5.5rem;
+
+        font-size: 1.6rem;
+    }
+
+    .button {
+        margin: 0;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (width < 375px) {
+    .container, .result {
+        width: 100%;
+    }
+
+
+}

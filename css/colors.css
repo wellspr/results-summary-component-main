@@ -1,0 +1,63 @@
+/*
+## Colors
+
+### Primary
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+*/
+
+:root {
+    /*- Light red: */ 
+    --lr: hsl(0, 100%, 67%);
+    --lr-bg: hsl(0, 100%, 67%, 0.1);
+    /*- Orangey yellow: */ 
+    --oy: hsl(39, 100%, 56%);
+    --oy-bg: hsl(39, 100%, 56%, 0.1);
+    /*- Green teal: */ 
+    --gt: hsl(166, 100%, 37%);
+    --gt-bg: hsl(166, 100%, 37%, 0.1);
+    /*- Cobalt blue: */ 
+    --cb: hsl(234, 85%, 45%);
+    --cb-bg: hsl(234, 85%, 45%, 0.1);
+    
+    /*- Light slate blue (background): */
+    --lsb: #7857ff;
+    /*- Light royal blue (background): */
+    --lrb: hsl(241, 81%, 54%);
+    
+    /*- Violet blue (circle): */
+    --vb: hsla(256, 72%, 46%, 1);
+    --vb2: hsla(256, 72%, 46%, 0.1);
+    /*- Persian blue (circle): */
+    --pb: hsla(241, 72%, 46%, 0);
+    
+    /*- White: */
+    --w: hsl(0, 0%, 100%);
+    /*- Pale blue: */
+    --pb: hsl(221, 100%, 96%);
+    /*- Light lavender: */
+    --ll: hsl(241, 100%, 89%);
+    --ll2: hsl(246, 100%, 73%);
+    /*- Dark gray blue: */
+    --dgb: hsl(224, 30%, 27%);
+    --dgb-light: hsl(224, 30%, 27%, 0.5);
+    
+    }

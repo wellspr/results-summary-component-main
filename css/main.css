@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-base {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 15px 25px 5px var(--ll);
+    border-radius: 30px;
+}
+
+.card {
+    width: 368px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        var(--lsb),
+        var(--lrb)
+    );
+
+    padding: 4rem 6rem;
+
+    border-radius: 30px;
+}
+
+.result__heading {
+    color: var(--ll);
+    font-size: 2.4rem;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    background: linear-gradient(
+        var(--vb),
+        var(--vb2)
+    );
+    height: 200px;
+    width: 200px;
+
+    margin: 0;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.score__value {
+    color: hsl(0, 0%, 100%);
+    font-size: 7rem;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.score__complementary {
+    color: var(--ll2);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description__heading {
+    color: var(--pb);
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+}
+
+.description__text {
+    color: var(--ll);
+    font-size: inherit;
+    font-weight: 500;
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+}
+
+.summary__heading {
+    text-align: start;
+    color: var(--dgb);
+    font-size: 2.4rem;
+    font-weight: 800;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.property {
+    font-weight: 500;
+    font-size: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 29rem;
+    height: 5.4rem;
+    border-radius: 10px;
+}
+
+.property__name {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.property__value {
+    font-weight: 700;
+    color: var(--dgb);
+}
+
+.property__total {
+    font-weight: 700;
+    color: var(--dgb-light);
+}
+
+.property__name img {
+    margin-right: 1rem;
+}
+
+.property__score {
+    padding-right: 8px;
+}
+
+.reaction {
+    background-color: var(--lr-bg);
+}
+
+.property__reaction {
+    color: var(--lr);
+}
+
+.memory {
+    background-color: var(--oy-bg);
+}
+
+.property__memory {
+    color: var(--oy);
+}
+
+.verbal {
+    background-color: var(--gt-bg);
+}
+
+.property__verbal {
+    color: var(--gt);
+}
+
+.visual {
+    background-color: var(--cb-bg);
+}
+
+.property__visual {
+    color: var(--cb);
+}
+
+.button {
+    border: none;
+    color: var(--pb);
+    font-weight: 700;
+    background-color: var(--dgb);
+    padding: 1.8rem;
+    font-size: inherit;
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(
+        var(--lsb),
+        var(--lrb)
+    );
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
