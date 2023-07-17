@@ -10,11 +10,11 @@ html {
 
 body {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*background-color: darkgray;*/
     font-size: 1.8rem;
     font-weight: 500;
     font-family: 'Hanken Grotesk', sans-serif;
@@ -54,6 +54,8 @@ body {
         var(--lrb)
     );
 
+    background-color: transparent;
+
     padding: 4rem 6rem;
 
     border-radius: 30px;
@@ -80,7 +82,7 @@ body {
 
     margin: 0;
     margin-top: 3.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.6rem;
 }
 
 .score__value {
@@ -106,7 +108,7 @@ body {
     color: var(--pb);
     font-size: 3.2rem;
     font-weight: 700;
-    margin-bottom: 0.9rem;
+    margin-bottom: 1.3rem;
 }
 
 .description__text {
@@ -146,7 +148,7 @@ body {
 }
 
 .property__name {
-    padding-left: 8px;
+    padding-left: 1.6rem;
     display: flex;
     align-items: center;
 }
@@ -154,6 +156,7 @@ body {
 .property__value {
     font-weight: 700;
     color: var(--dgb);
+    margin-right: 0.5rem;
 }
 
 .property__total {
@@ -162,11 +165,12 @@ body {
 }
 
 .property__name img {
-    margin-right: 1rem;
+    margin-right: 1.2rem;
 }
 
 .property__score {
-    padding-right: 8px;
+    padding-right: 1.6rem;
+
 }
 
 .reaction {
